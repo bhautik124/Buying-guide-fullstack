@@ -10,7 +10,7 @@
 //     const prompt = `${question} for ${product.name} in one short sentence`;
 //     try {
 //       const response = await axios.post(
-//         "http://localhost:3000/api/ai/suggest",
+//         "http://https://buying-guide-fullstack-backend.onrender.com/api/ai/suggest",
 //         {
 //           prompt,
 //         }
@@ -214,7 +214,7 @@ const AIHelpModal = ({ product, isAIOpen, setIsAIOpen }) => {
     const prompt = `${question} for ${product.name} in one short sentence`;
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/ai/suggest",
+        "http://https://buying-guide-fullstack-backend.onrender.com/api/ai/suggest",
         {
           prompt,
         }
