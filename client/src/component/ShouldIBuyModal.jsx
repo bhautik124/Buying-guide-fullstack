@@ -104,7 +104,7 @@ const ShouldIBuyModal = ({ productId, isOpen, onClose, openCompareModal }) => {
       }
 
       const response = await axios.get(
-        `http://https://buying-guide-fullstack-backend.onrender.com/api/should-i-buy/${productIdNumber} `
+        `https://buying-guide-fullstack-backend.onrender.com/api/should-i-buy/${productIdNumber} `
       );
 
       // Set the analysis result from the backend
