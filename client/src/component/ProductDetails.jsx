@@ -225,7 +225,7 @@ const ProductDetails = () => {
     const fetchReviews = async () => {
       try {
         const response = await axios.get(
-          `http://https://buying-guide-fullstack-backend.onrender.com/api/reviews/${productId}`
+          `https://buying-guide-fullstack-backend.onrender.com/api/reviews/${productId}`
         );
         setReviews(response.data);
       } catch (error) {
