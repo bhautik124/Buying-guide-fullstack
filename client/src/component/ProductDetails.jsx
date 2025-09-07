@@ -38,7 +38,7 @@
 //     const fetchReviews = async () => {
 //       try {
 //         const response = await axios.get(
-//           `http://localhost:3000/api/reviews/${productId}`
+//           `http://https://buying-guide-fullstack-backend.onrender.com/api/reviews/${productId}`
 //         );
 //         setReviews(response.data);
 //       } catch (error) {
@@ -225,7 +225,7 @@ const ProductDetails = () => {
     const fetchReviews = async () => {
       try {
         const response = await axios.get(
-          `http://localhost:3000/api/reviews/${productId}`
+          `http://https://buying-guide-fullstack-backend.onrender.com/api/reviews/${productId}`
         );
         setReviews(response.data);
       } catch (error) {
