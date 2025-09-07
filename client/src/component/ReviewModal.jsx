@@ -118,7 +118,7 @@ const ReviewModal = ({
 
     try {
       const response = await axios.post(
-        "http://https://buying-guide-fullstack-backend.onrender.com/api/reviews",
+        "https://buying-guide-fullstack-backend.onrender.com/api/reviews",
         newReview
       );
       setReviews((prevReviews) => [...prevReviews, response.data]);
