@@ -14,7 +14,7 @@
 //       }
 
 //       const response = await axios.get(
-//         `http://localhost:3000/api/should-i-buy/${productIdNumber} `
+//         `http://https://buying-guide-fullstack-backend.onrender.com/api/should-i-buy/${productIdNumber} `
 //       );
 
 //       // Set the analysis result from the backend
@@ -104,7 +104,7 @@ const ShouldIBuyModal = ({ productId, isOpen, onClose, openCompareModal }) => {
       }
 
       const response = await axios.get(
-        `http://localhost:3000/api/should-i-buy/${productIdNumber} `
+        `http://https://buying-guide-fullstack-backend.onrender.com/api/should-i-buy/${productIdNumber} `
       );
 
       // Set the analysis result from the backend
