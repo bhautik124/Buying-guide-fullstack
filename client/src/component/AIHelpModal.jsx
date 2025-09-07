@@ -214,7 +214,7 @@ const AIHelpModal = ({ product, isAIOpen, setIsAIOpen }) => {
     const prompt = `${question} for ${product.name} in one short sentence`;
     try {
       const response = await axios.post(
-        "http://https://buying-guide-fullstack-backend.onrender.com/api/ai/suggest",
+        "https://buying-guide-fullstack-backend.onrender.com/api/ai/suggest",
         {
           prompt,
         }
