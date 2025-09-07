@@ -22,7 +22,7 @@
 
 //     try {
 //       const response = await axios.post(
-//         "http://localhost:3000/api/reviews",
+//         "http://https://buying-guide-fullstack-backend.onrender.com/api/reviews",
 //         newReview
 //       );
 //       setReviews((prevReviews) => [...prevReviews, response.data]);
@@ -118,7 +118,7 @@ const ReviewModal = ({
 
     try {
       const response = await axios.post(
-        "http://localhost:3000/api/reviews",
+        "http://https://buying-guide-fullstack-backend.onrender.com/api/reviews",
         newReview
       );
       setReviews((prevReviews) => [...prevReviews, response.data]);
