@@ -9,7 +9,7 @@ const Context = (props) => {
   useEffect(() => {
     const apiCall = async () => {
       const getData = await axios.get(
-        "https://mocki.io/v1/15bd3f61-ad45-4dbb-b0d8-3fd02fcb3327"
+        "https://mocki.io/v1/2983e1e0-0c29-4467-98a0-618a9f1f3176"
       );
       setdata(getData.data);
     };
